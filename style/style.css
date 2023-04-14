@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
 .attribution {
      font-size: 11px; text-align: center; 
 }
@@ -14,7 +15,11 @@ body{
     height: 700px;
     margin: 0;
     padding: 0;
+    font-size: 15px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body p{
+    color:  hsl(220, 15%, 55%);
 }
 .container{
     display: flex;
